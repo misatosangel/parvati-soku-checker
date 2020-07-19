@@ -10,8 +10,8 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/misatosangel/parvati-api-client v0.0.0-20200719113119-0bb1a0a00f7a
-	github.com/misatosangel/soku-cardinfo v0.0.0-20200710115807-78f2bea1e650
-	github.com/misatosangel/soku-net-checker v0.0.0-20200710152514-e8415d7ccbe6
+	github.com/misatosangel/soku-cardinfo v0.0.0-20200719135146-da284d9c17f4
+	github.com/misatosangel/soku-net-checker v0.0.0-20200719171836-61d562ea47c3
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.1 // indirect
 	golang.org/x/net v0.0.0-20200707034311-ab3426394381 // indirect

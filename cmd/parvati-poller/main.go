@@ -254,7 +254,7 @@ func Worker(api *parvatigo.Api, tid uint8, queue chan *Job) {
 				p2name = *su.Prof2Name
 			}
 
-			log.Printf("Thread: %d [NOT UPDATING] check on host '%s' resulted in status: %s (was: %s). Opponent Addr: %s, Spec: %s. Vers: %s. Prof1: %s Prof2: %s", tid, j.Request.Address, su.Status, j.OrigHostStat.Status.Status, su.OpponentAddr, spec, vers, p1name, p2name)
+			log.Printf("Thread: %d [NOT UPDATING] check on host '%s' resulted in status: %s (was: %s). Opponent Addr: %s, Spec: %s. Roll-Vers: %s. Prof1: %s Prof2: %s", tid, j.Request.Address, su.Status, j.OrigHostStat.Status.Status, su.OpponentAddr, spec, vers, p1name, p2name)
 			continue
 		}
 		ret, apiErr := api.UpdateHostStatus(j.Game, *su)
@@ -263,7 +263,7 @@ func Worker(api *parvatigo.Api, tid uint8, queue chan *Job) {
 			continue
 		}
 		if settings.Debug {
-			log.Printf("Thread: %d check on host '%s' resulted in check id %d status: %s (was: %s). Spec: %s. Vers: %s. Prof1: %s Prof2: %s\n", tid, j.Request.Address, ret.Id, ret.Status, j.OrigHostStat.Status.Status, ret.CanSpec, ret.Version, ret.P1Profile, ret.P2Profile)
+			log.Printf("Thread: %d check on host '%s' resulted in check id %d status: %s (was: %s). Spec: %s. Roll-Vers: %s. Prof1: %s Prof2: %s\n", tid, j.Request.Address, ret.Id, ret.Status, j.OrigHostStat.Status.Status, ret.CanSpec, ret.Version, ret.P1Profile, ret.P2Profile)
 		}
 	}
 }
@@ -289,8 +289,8 @@ func CheckHost(j *Job) (*parvatigo.StatusUpdate, error) {
 		HosterId:    j.OrigHostStat.Host.BaseInfo.Id,
 		LastCheckId: j.OrigHostStat.Status.Id,
 	}
-	if result.Version != "" {
-		su.NewVers = &result.Version
+	if result.Additional.Roll != "" {
+		su.NewVers = &result.Additional.Roll
 	}
 	if result.GoodStatus() {
 		switch result.Spectate {

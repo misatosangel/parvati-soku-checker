@@ -58,8 +58,14 @@ github.com/misatosangel/parvati-api-client v0.0.0-20200719113119-0bb1a0a00f7a h1
 github.com/misatosangel/parvati-api-client v0.0.0-20200719113119-0bb1a0a00f7a/go.mod h1:XXUAQtfD3dJ1BMwqGh3oOpvKfwFPZ9TUFkBAQf1joCM=
 github.com/misatosangel/soku-cardinfo v0.0.0-20200710115807-78f2bea1e650 h1:8DRlJPwZ5J9RHbuquhxe3XfUdPRFWXk13qPYTwOAVMk=
 github.com/misatosangel/soku-cardinfo v0.0.0-20200710115807-78f2bea1e650/go.mod h1:diJOPSaI7jqY4tQACHHjuFHTkUE059SoO/frQyMH2bg=
+github.com/misatosangel/soku-cardinfo v0.0.0-20200719135146-da284d9c17f4 h1:lBh8e8Ocp4XGcLNzmfXJcC3uGzJEqYM/zq19SzQeXiY=
+github.com/misatosangel/soku-cardinfo v0.0.0-20200719135146-da284d9c17f4/go.mod h1:diJOPSaI7jqY4tQACHHjuFHTkUE059SoO/frQyMH2bg=
 github.com/misatosangel/soku-net-checker v0.0.0-20200710152514-e8415d7ccbe6 h1:k/vuDmHpKs4SyoSgTJv/b77e9LqK0CCXJI+n2OkL8w0=
 github.com/misatosangel/soku-net-checker v0.0.0-20200710152514-e8415d7ccbe6/go.mod h1:wd7MEArXJDlN+r11uKD1Wq95arWbwCE40clXalqZTwU=
+github.com/misatosangel/soku-net-checker v0.0.0-20200719142155-c9c25bcdd3f3 h1:mqOlpyYNX1QPhK6e6MHkKoyjByUiuszFe7uG2253eUE=
+github.com/misatosangel/soku-net-checker v0.0.0-20200719142155-c9c25bcdd3f3/go.mod h1:wd7MEArXJDlN+r11uKD1Wq95arWbwCE40clXalqZTwU=
+github.com/misatosangel/soku-net-checker v0.0.0-20200719171836-61d562ea47c3 h1:Q7Bd9x8uzeH5E/LObbEsU6SkG+pf6s0uXam4Xq+SwKg=
+github.com/misatosangel/soku-net-checker v0.0.0-20200719171836-61d562ea47c3/go.mod h1:wd7MEArXJDlN+r11uKD1Wq95arWbwCE40clXalqZTwU=
 github.com/misatosangel/traceroute v0.0.0-20190506133102-51260f3bd682 h1:8hjNVTM+1g3aUYKnNjBpfyorzbAgFlwFW38i3GfsdDA=
 github.com/misatosangel/traceroute v0.0.0-20190506133102-51260f3bd682/go.mod h1:+VSoRpAAItw7uiHDP5ntFA1qzYb0hXRz5y6xrgJHPMc=
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421 h1:ZqeYNhU3OHLH3mGKHDcjJRFFRrJa6eAM5H+CtDdOsPc=
