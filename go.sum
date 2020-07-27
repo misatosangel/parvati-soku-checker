@@ -56,6 +56,8 @@ github.com/misatosangel/gitconfig v0.0.0-20190506123303-7e187d15d6fb h1:GqBF4J3p
 github.com/misatosangel/gitconfig v0.0.0-20190506123303-7e187d15d6fb/go.mod h1:vSJ7yiC3xoNzA2M39W0ZJ+jvtjjDs0hLH0DNdnDbS9g=
 github.com/misatosangel/parvati-api-client v0.0.0-20200719113119-0bb1a0a00f7a h1:X/vKEkAOaB9X9CAd1IAiChFIAmHnHFYYgjH8vmHMWw4=
 github.com/misatosangel/parvati-api-client v0.0.0-20200719113119-0bb1a0a00f7a/go.mod h1:XXUAQtfD3dJ1BMwqGh3oOpvKfwFPZ9TUFkBAQf1joCM=
+github.com/misatosangel/parvati-api-client v0.0.0-20200727203627-3264e5933b1e h1:tfCZwKvJW4yRxaQNF43AdcFOzb1LILAoYEwLp6LgH1k=
+github.com/misatosangel/parvati-api-client v0.0.0-20200727203627-3264e5933b1e/go.mod h1:XXUAQtfD3dJ1BMwqGh3oOpvKfwFPZ9TUFkBAQf1joCM=
 github.com/misatosangel/soku-cardinfo v0.0.0-20200710115807-78f2bea1e650 h1:8DRlJPwZ5J9RHbuquhxe3XfUdPRFWXk13qPYTwOAVMk=
 github.com/misatosangel/soku-cardinfo v0.0.0-20200710115807-78f2bea1e650/go.mod h1:diJOPSaI7jqY4tQACHHjuFHTkUE059SoO/frQyMH2bg=
 github.com/misatosangel/soku-cardinfo v0.0.0-20200719135146-da284d9c17f4 h1:lBh8e8Ocp4XGcLNzmfXJcC3uGzJEqYM/zq19SzQeXiY=

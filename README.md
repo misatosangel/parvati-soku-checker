@@ -79,7 +79,8 @@ The `spectate` is actually a tristate boolean as a unicode character:
 `y` - Spectate is enabled
 `n` - Spectate is disabled
 
-Currently the endpoint only supports checking for soku-roll installed at v1.3 vs non-installed, and only supports checking histoutensoku v1.10a with full character linkage.
+Currently the endpoint only supports checking for soku-roll installed at v1.3 vs non-installed, and only supports
+checking histoutensoku v1.10a with full character linkage.
 
 More information can be obtained by passing query paramter `level=state` or `level=full`.
 
@@ -92,7 +93,13 @@ This provides additional fields in the `result` object for a running game:
 		"spec_chain": ["a.b.c.d:14728"],
 }
 ```
-Both may be missing if there's a problem following the spec chain. `profiles` are the profile names used by player 1 and 2 respectively. The `spec_chain` entry is an Array of IP and ports of spectators jumped through to get to the information. Due to the way soku spectating works (a 4-node tree of specators) then the entire spec tree is not shown here. Only the route the api query was sent through in order to get the game information.
+Both may be missing if there's a problem following the spec chain.
+
+- `profiles` are the profile names used by player 1 and 2 respectively.
+- The `spec_chain` entry is an Array of IP and ports of spectators jumped through to get to the information.
+
+Due to the way soku spectating works (a 4-node tree of specators) then the entire spec tree is not shown here.
+Only the route the api query was sent through in order to get the game information.
 
 ##### `level=full`
 
@@ -117,6 +124,8 @@ This provides additional field in the `result` object for a running game:
     },
 }
 ```
+
+More information on these fields can be found in the checker repository this calls in to.
 
 ### Building
 
